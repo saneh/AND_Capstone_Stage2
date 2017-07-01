@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="workout_categories">
+        <item>@string/cardio</item>
+        <item>@string/shoulders</item>
+        <item>@string/triceps</item>
+        <item>@string/biceps</item>
+        <item>@string/chest</item>
+        <item>@string/back</item>
+        <item>@string/abs</item>
+        <item>@string/legs</item>
+
+        <!--Maintain same sequence order in "workout_categories" and "all_workout_list"-->
+    </string-array>
+    <string-array name="all_workout_list">
+        <item>@array/cardio_workouts</item>
+        <item>@array/shoulder_workouts</item>
+        <item>@array/tricep_workouts</item>
+        <item>@array/bicep_workouts</item>
+        <item>@array/chest_workouts</item>
+        <item>@array/back_workouts</item>
+        <item>@array/abs_workouts</item>
+        <item>@array/legs_workouts</item>
+
+
+    </string-array>
+    <string-array name="shoulder_workouts" >
+        <item>@string/alternating_cable_shoulder_press</item>
+        <item>@string/alternating_deltoid_raise</item>
+        <item>@string/alternating_kettlebell_press</item>
+        <item>@string/arm_circles</item>
+        <item>@string/arnold_dumbbell_press</item>
+        <item>@string/barbell_front_raise</item>
+        <item>@string/barbell_incline_shoulder_raise</item>
+        <item>@string/battling_ropes</item>
+        <item>@string/bear_crawl_shoulder_tap</item>
+        <item>@string/bent_over_low_pulley_side_lateral</item>
+        <item>@string/cable_rope_rear_delt_rows</item>
+        <item>@string/dumbbell_lying_one_arm_rear_lateral_raise</item>
+        <item>@string/dumbbell_lying_rear_lateral_raise</item>
+        <item>@string/dumbbell_rear_delt_row</item>
+        <item>@string/face_pull</item>
+        <item>@string/front_dumbbell_raise</item>
+        <item>@string/front_plate_raise</item>
+        <item>@string/half_kneeling_dumbbell_shoulder_press</item>
+        <item>@string/iron_cross</item>
+        <item>@string/machine_shoulder_military_press</item>
+        <item>@string/one_arm_side_laterals</item>
+        <item>@string/wall_walk</item>
+    </string-array>
+
+
+    <string-array name="tricep_workouts">
+        <item>@string/band_skull_crusher</item>
+        <item>@string/bench_dips</item>
+        <item>@string/bench_press_powerlifting</item>
+        <item>@string/cable_one_arm_tricep_extension</item>
+        <item>@string/cable_rope_overhead_triceps_extension</item>
+        <item>@string/cobra_triceps_extension</item>
+        <item>@string/decline_dumbbell_triceps_extension</item>
+        <item>@string/decline_ez_bar_triceps_extension</item>
+        <item>@string/dip_machine</item>
+        <item>@string/dips_triceps_version</item>
+        <item>@string/dumbbell_one_arm_triceps_extension</item>
+        <item>@string/kneeling_cable_triceps_extension</item>
+        <item>@string/low_cable_triceps_extension</item>
+        <item>@string/push_ups_close_triceps_position</item>
+        <item>@string/reverse_grip_triceps_pushdown</item>
+        <item>@string/seated_triceps_press</item>
+        <item>@string/triceps_plank_extension</item>
+        <item>@string/weighted_bench_dip</item>
+    </string-array>
+
+
+    <string-array name="bicep_workouts">
+        <item>@string/alternate_hammer_curl</item>
+        <item>@string/alternate_incline_dumbbell_curl</item>
+        <item>@string/barbell_curl</item>
+        <item>@string/biceps_curl_to_shoulder_press</item>
+        <item>@string/cable_hammer_curls_rope_attachment</item>
+        <item>@string/cable_preacher_curl</item>
+        <item>@string/concentration_curls</item>
+        <item>@string/dumbbell_alternate_bicep_curl</item>
+        <item>@string/hammer_curls</item>
+        <item>@string/incline_dumbbell_curl</item>
+        <item>@string/one_arm_dumbbell_preacher_curl</item>
+        <item>@string/overhead_cable_curl</item>
+        <item>@string/standing_one_arm_cable_curl</item>
+        <item>@string/standing_one_arm_dumbbell_curl_over_incline_bench</item>
+    </string-array>
+
+
+    <string-array name="chest_workouts">
+        <item>@string/alternating_floor_press</item>
+        <item>@string/around_the_worlds</item>
+        <item>@string/barbell_bench_press_medium_grip</item>
+        <item>@string/barbell_incline_bench_press_medium_grip</item>
+        <item>@string/bent_arm_dumbbell_pullover</item>
+        <item>@string/burpee_to_medicine_ball_press</item>
+        <item>@string/butterfly</item>
+        <item>@string/cable_crossover</item>
+        <item>@string/chest_stretch_on_stability_ball</item>
+        <item>@string/clapping_push_up</item>
+        <item>@string/decline_dumbbell_bench_press</item>
+        <item>@string/drop_push</item>
+        <item>@string/incline_dumbbell_bench_with_palms_facing_in</item>
+        <item>@string/incline_dumbbell_press</item>
+        <item>@string/machine_bench_press</item>
+        <item>@string/push_ups_with_feet_on_an_exercise_ball</item>
+        <item>@string/pushups</item>
+        <item>@string/wide_grip_decline_barbell_bench_press</item>
+        <item>@string/wide_grip_barbell_bench_press</item>
+    </string-array>
+
+
+   <string-array name="back_workouts">
+        <item>@string/barbell_deadlift_bent_row_complex</item>
+       <item>@string/bent_over_barbell_row</item>
+       <item>@string/bent_over_one_arm_long_bar_row</item>
+       <item>@string/child_pose</item>
+       <item>@string/dumbbell_incline_row</item>
+       <item>@string/hug_a_ball</item>
+       <item>@string/incline_bench_pull</item>
+       <item>@string/one_arm_dumbbell_row</item>
+       <item>@string/plate_row</item>
+       <item>@string/pyramid</item>
+       <item>@string/superman</item>
+       <item>@string/upper_back_stretch</item>
+   </string-array>
+
+
+    <string-array name="legs_workouts">
+        <item>@string/ninety_ninety_hamstring</item>
+        <item>@string/alternating_leg_swing</item>
+        <item>@string/ball_leg_curl</item>
+        <item>@string/barbell_seated_calf_raise</item>
+        <item>@string/box_jump</item>
+        <item>@string/calf_press_on_the_leg_press_machine</item>
+        <item>@string/chair_leg_extended_stretch</item>
+        <item>@string/hamstring_stretch</item>
+        <item>@string/high_kick</item>
+        <item>@string/knee_to_chest</item>
+        <item>@string/lying_leg_curls</item>
+        <item>@string/barbell_step_ups</item>
+    </string-array>
+
+
+    <string-array name="abs_workouts">
+        <item>@string/three_fourth_situp</item>
+        <item>@string/ab_roller</item>
+        <item>@string/air_bike</item>
+        <item>@string/alternate_heel_touchers</item>
+        <item>@string/barbell_ab_rollout</item>
+        <item>@string/bottoms_up</item>
+        <item>@string/cable_crunch</item>
+        <item>@string/crunch_legs_on_exercise_ball</item>
+        <item>@string/flat_bench_lying_leg_raise</item>
+        <item>@string/medicine_ball_full_twist</item>
+        <item>@string/plank</item>
+        <item>@string/rope_crunch</item>
+    </string-array>
+
+
+    <string-array name="cardio_workouts">
+        <item>@string/bicycling_stationary</item>
+        <item>@string/burpee</item>
+        <item>@string/butt_kicks</item>
+        <item>@string/elliptical_trainer</item>
+        <item>@string/football_up_down</item>
+        <item>@string/high_knee_jog</item>
+        <item>@string/jog_in_place</item>
+        <item>@string/jogging_treadmill</item>
+        <item>@string/jumping_jack</item>
+        <item>@string/rope_jumping</item>
+        <item>@string/vertical_mountain_climber</item>
+    </string-array>
+
+    <!--Widget Image array-->
+    <string-array name="widget_images">
+        <item>@string/widget_img1</item>
+        <item>@string/widget_img2</item>
+        <item>@string/widget_img3</item>
+        <item>@string/widget_img4</item>
+        <item>@string/widget_img5</item>
+        <item>@string/widget_img6</item>
+        <item>@string/widget_img7</item>
+        <item>@string/widget_img8</item>
+        <item>@string/widget_img9</item>
+        <item>@string/widget_img10</item>
+        <item>@string/widget_img11</item>
+        <item>@string/widget_img12</item>
+        <item>@string/widget_img13</item>
+        <item>@string/widget_img14</item>
+        <item>@string/widget_img15</item>
+        <item>@string/widget_img16</item>
+        <item>@string/widget_img17</item>
+        <item>@string/widget_img18</item>
+        <item>@string/widget_img19</item>
+        <item>@string/widget_img20</item>
+    </string-array>
+
+
+</resources>
+

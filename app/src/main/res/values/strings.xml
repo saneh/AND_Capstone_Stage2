@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">FitNotes</string>
+    <string name="title">fitnotes</string>
+    <!--Workout categories-->
+    <string name="shoulders">Shoulders</string>
+    <string name="triceps">Triceps</string>
+    <string name="biceps">Biceps</string>
+    <string name="chest">Chest</string>
+    <string name="back">Back</string>
+    <string name="legs">Legs</string>
+    <string name="abs">Abs</string>
+    <string name="cardio">Cardio</string>
+
+    <!--Toast messages-->
+    <!--Select Workout Toast-->
+    <string name="toast_selectWorkout">You need to select workouts! Pick from the list above</string>
+    <string name="toast_dateNotSelected">This is strange! Somehow date for workout is not selected</string>
+
+    <!--List of shoulder exercises-->
+    <string name="alternating_cable_shoulder_press">Alternating Cable Shoulder Press</string>
+    <string name="alternating_deltoid_raise">Alternating Deltoid Raise</string>
+    <string name="alternating_kettlebell_press">Alternating Kettlebell Press</string>
+    <string name="arm_circles">Arm Circles</string>
+    <string name="arnold_dumbbell_press">Arnold Dumbbell Press</string>
+    <string name="barbell_front_raise">Barbell Front Raise</string>
+    <string name="barbell_incline_shoulder_raise">Barbell Incline Shoulder Raise</string>
+    <string name="battling_ropes">Battling Ropes</string>
+    <string name="bear_crawl_shoulder_tap">Bear Crawl Shoulder Tap</string>
+    <string name="bent_over_low_pulley_side_lateral">Bent Over Low Pulley Side Lateral</string>
+    <string name="cable_rope_rear_delt_rows">Cable Rope Rear Delt Rows</string>
+    <string name="dumbbell_lying_one_arm_rear_lateral_raise">Dumbbell Lying One Arm Rear Lateral Raise</string>
+    <string name="dumbbell_lying_rear_lateral_raise">Dumbbell Lying Rear Lateral Raise</string>
+    <string name="dumbbell_rear_delt_row">Dumbbell Rear Delt Row</string>
+    <string name="face_pull">Face Pull</string>
+    <string name="front_dumbbell_raise">Front Dumbbell Raise</string>
+    <string name="front_plate_raise">Front Plate Raise</string>
+    <string name="half_kneeling_dumbbell_shoulder_press">Half kneeling Dumbbell Shoulder Press</string>
+    <string name="iron_cross">Iron Cross</string>
+    <string name="machine_shoulder_military_press">Machine Shoulder Military Press</string>
+    <string name="one_arm_side_laterals">One Arm Side Laterals</string>
+    <string name="wall_walk">Wall Walk</string>
+
+
+    <!--List of Triceps exercises-->
+    <string name="band_skull_crusher">Band Skull Crusher</string>
+    <string name="bench_dips">Bench Dips</string>
+    <string name="bench_press_powerlifting">Bench Press Powerlifting</string>
+    <string name="cable_one_arm_tricep_extension">Cable One Arm Tricep Extension</string>
+    <string name="cable_rope_overhead_triceps_extension">Cable Rope Overhead Triceps Extension</string>
+    <string name="cobra_triceps_extension">Cobra Triceps Extension</string>
+    <string name="decline_dumbbell_triceps_extension">Decline Dumbbell Triceps Extension</string>
+    <string name="decline_ez_bar_triceps_extension">Decline EZ Bar Triceps Extension</string>
+    <string name="dip_machine">Dip Machine</string>
+    <string name="dips_triceps_version">Dips Triceps Version</string>
+    <string name="dumbbell_one_arm_triceps_extension">Dumbbell One Arm Triceps Extension</string>
+    <string name="kneeling_cable_triceps_extension">Kneeling Cable Triceps Extension</string>
+    <string name="low_cable_triceps_extension">Low Cable Triceps Extension</string>
+    <string name="push_ups_close_triceps_position">Push Ups Close Triceps Position</string>
+    <string name="reverse_grip_triceps_pushdown">Reverse Grip Triceps Pushdown</string>
+    <string name="seated_triceps_press">Seated Triceps Press</string>
+    <string name="triceps_plank_extension">Triceps Plank Extension</string>
+    <string name="weighted_bench_dip">Weighted Bench Dip</string>
+
+    <!--List of Biceps exercises-->
+    <string name="alternate_hammer_curl">Alternate Hammer Curl</string>
+    <string name="alternate_incline_dumbbell_curl">Alternate Incline Dumbbell Curl</string>
+    <string name="barbell_curl">Barbell Curl</string>
+    <string name="biceps_curl_to_shoulder_press">Biceps Curl To Shoulder Press</string>
+    <string name="cable_hammer_curls_rope_attachment">Cable Hammer Curls Rope Attachment</string>
+    <string name="cable_preacher_curl">Cable Preacher Curl</string>
+    <string name="concentration_curls">Concentration Curls</string>
+    <string name="dumbbell_alternate_bicep_curl">Dumbbell Alternate Bicep Curl</string>
+    <string name="hammer_curls">Hammer Curls</string>
+    <string name="incline_dumbbell_curl">Incline Dumbbell Curl</string>
+    <string name="one_arm_dumbbell_preacher_curl">One Arm Dumbbell Preacher Curl</string>
+    <string name="overhead_cable_curl">Overhead Cable Curl</string>
+    <string name="standing_one_arm_cable_curl">Standing One Arm Cable Curl</string>
+    <string name="standing_one_arm_dumbbell_curl_over_incline_bench">Standing One Arm Dumbbell Curl Over Incline Bench</string>
+
+    <!--List of Chest exercises-->
+    <string name="alternating_floor_press">Alternating Floor Press</string>
+    <string name="around_the_worlds">Around The Worlds</string>
+    <string name="barbell_bench_press_medium_grip">Barbell Bench Press Medium Grip</string>
+    <string name="barbell_incline_bench_press_medium_grip">Barbell Incline Bench Press Medium Grip</string>
+    <string name="bent_arm_dumbbell_pullover">Bent-Arm Dumbbell Pullover</string>
+    <string name="burpee_to_medicine_ball_press">Burpee To Medicine Ball Press</string>
+    <string name="butterfly">Butterfly</string>
+    <string name="cable_crossover">Cable Crossover</string>
+    <string name="chest_stretch_on_stability_ball">Chest Stretch on Stability Ball</string>
+    <string name="clapping_push_up">Clapping Push Up</string>
+    <string name="decline_dumbbell_bench_press">Decline Dumbbell Bench Press</string>
+    <string name="drop_push">Drop Push</string>
+    <string name="incline_dumbbell_bench_with_palms_facing_in">Incline Dumbbell Bench With Palms Facing In</string>
+    <string name="incline_dumbbell_press">Incline Dumbbell Press</string>
+    <string name="machine_bench_press">Machine Bench Press</string>
+    <string name="push_ups_with_feet_on_an_exercise_ball">Push-Ups With Feet On An Exercise Ball</string>
+    <string name="pushups">Pushups</string>
+    <string name="wide_grip_decline_barbell_bench_press">Wide Grip Decline Barbell Bench Press</string>
+    <string name="wide_grip_barbell_bench_press">Wide-Grip Barbell Bench Press</string>
+
+    <!--List of Back exercises-->
+
+    <string name="barbell_deadlift_bent_row_complex">Barbell Deadlift Bent Row Complex</string>
+    <string name="bent_over_barbell_row">Bent Over Barbell Row</string>
+    <string name="bent_over_one_arm_long_bar_row">Bent Over One Arm Long Bar Row</string>
+    <string name="child_pose">Child Pose</string>
+    <string name="dumbbell_incline_row">Dumbbell Incline Row</string>
+    <string name="hug_a_ball">Hug A Ball</string>
+    <string name="incline_bench_pull">Incline Bench Pull</string>
+    <string name="one_arm_dumbbell_row">One Arm Dumbbell Row</string>
+    <string name="plate_row">Plate Row</string>
+    <string name="pyramid">Pyramid</string>
+    <string name="superman">Superman</string>
+    <string name="upper_back_stretch">Upper Back Stretch</string>
+
+
+    <!--List of Legs exercises-->
+    <string name="ninety_ninety_hamstring">Ninety Ninety Hamstring</string>
+    <string name="alternating_leg_swing">Alternating Leg Swing</string>
+    <string name="ball_leg_curl">Ball Leg Curl</string>
+    <string name="barbell_seated_calf_raise">Barbell Seated Calf Raise</string>
+    <string name="box_jump">Box Jump</string>
+    <string name="calf_press_on_the_leg_press_machine">Calf Press On The Leg Press Machine</string>
+    <string name="chair_leg_extended_stretch">Chair Leg Extended Stretch</string>
+    <string name="hamstring_stretch">Hamstring Stretch</string>
+    <string name="high_kick">High Kick</string>
+    <string name="knee_to_chest">Knee To Chest</string>
+    <string name="lying_leg_curls">Lying Leg Curls</string>
+    <string name="barbell_step_ups">Barbell Step Ups</string>
+
+
+    <!--List of Abs exercise-->
+    <string name="three_fourth_situp">Three Fourth SitUp</string>
+    <string name="ab_roller">Ab Roller</string>
+    <string name="air_bike">Air Bike</string>
+    <string name="alternate_heel_touchers">Alternate Heel Touchers</string>
+    <string name="barbell_ab_rollout">Barbell Ab Rollout</string>
+    <string name="bottoms_up">Bottoms Up</string>
+    <string name="cable_crunch">Cable Crunch</string>
+    <string name="crunch_legs_on_exercise_ball">Crunch Legs On Exercise Ball</string>
+    <string name="flat_bench_lying_leg_raise">Flat Bench Lying Leg Raise</string>
+    <string name="medicine_ball_full_twist">Medicine Ball Full Twist</string>
+    <string name="plank">Plank</string>
+    <string name="rope_crunch">Rope Crunch</string>
+
+
+    <!--List of Cardio exercises-->
+    <string name="bicycling_stationary">Bicycling</string>
+    <string name="burpee">Burpee</string>
+    <string name="butt_kicks">Butt Kicks</string>
+    <string name="elliptical_trainer">Elliptical Trainer</string>
+    <string name="football_up_down">Football Up Down</string>
+    <string name="high_knee_jog">High Knee Jog</string>
+    <string name="jog_in_place">Jog In Place</string>
+    <string name="jogging_treadmill">Jogging Treadmill</string>
+    <string name="jumping_jack">Jumping Jack</string>
+    <string name="rope_jumping">Rope Jumping</string>
+    <string name="vertical_mountain_climber">Vertical Mountain Climber</string>
+
+    <!--Empty View strings-->
+    <string name="empty_view_today_future_text">It\'s quite Empty.\nTap the + button to add workout schedule for this day</string>
+    <string name="empty_view_past_text">It\'s never too late. Tap the + button to add workout schedule for today</string>
+
+    <!--Set Workout Edit Text Hints-->
+    <string name="distance">DISTANCE</string>
+    <string name="weight">WEIGHT</string>
+    <string name="time">TIME</string>
+    <string name="reps">REPETITIONS</string>
+
+    <!--Save Workout Button-->
+    <string name="save">SAVE</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+
+    <!--Widget Image Url Links-->
+    <string name="widget_img1" translatable="false">https://goo.gl/drkszo</string>
+    <string name="widget_img2" translatable="false">https://goo.gl/aaiqbt</string>
+    <string name="widget_img3" translatable="false">https://goo.gl/zcKzqQ</string>
+    <string name="widget_img4" translatable="false">https://goo.gl/u7wz4q</string>
+    <string name="widget_img5" translatable="false">https://goo.gl/fLKxC4</string>
+    <string name="widget_img6" translatable="false">https://goo.gl/HFmLxQ</string>
+    <string name="widget_img7" translatable="false">https://goo.gl/gppBac</string>
+    <string name="widget_img8" translatable="false">https://goo.gl/hZAspG</string>
+    <string name="widget_img9" translatable="false">https://goo.gl/dfQgZ9</string>
+    <string name="widget_img10" translatable="false">https://goo.gl/DViybM</string>
+    <string name="widget_img11" translatable="false">https://goo.gl/b1z6X1</string>
+    <string name="widget_img12" translatable="false">https://goo.gl/YVmzrv</string>
+    <string name="widget_img13" translatable="false">https://goo.gl/wfCEpG</string>
+    <string name="widget_img14" translatable="false">https://goo.gl/YRJ2Af</string>
+    <string name="widget_img15" translatable="false">https://goo.gl/cmxjg7</string>
+    <string name="widget_img16" translatable="false">https://goo.gl/bh5i4C</string>
+    <string name="widget_img17" translatable="false">https://goo.gl/B2XraH</string>
+    <string name="widget_img18" translatable="false">https://goo.gl/nfKNNh</string>
+    <string name="widget_img19" translatable="false">https://goo.gl/4u1nA7</string>
+    <string name="widget_img20" translatable="false">https://goo.gl/ryUEVb</string>
+
+    <!--accessibility,content descriptions-->
+    <string name="fab_add_workout">Add workout button</string>
+    <string name="empty_view">No workout records found. Click on add workout button to add workout</string>
+    <string name="fab_select_workout">Select Workout button. Click here , once you have selected the workouts</string>
+    <string name="video_player">Video Player for workout videos</string>
+    <string name="horizontal_calendar">Horizontal calendar , with today selected as default day. Scroll left for previous days. Scroll Right for future days</string>
+    <string name="workout_card">Workout card. Contains workout details of store workouts</string>
+    <string name="cd_iv_isWorkoutComplete">Image button. Select if workout is complete</string>
+    <string name="workout_categories">List of all workout categories</string>
+    <string name="card_view_set_workout">Card to set workout details</string>
+    <string name="cd_iv_add_remove_workouts">Image Button. Use this to add or remove workouts from the schedule</string>
+    <string name="workout_image">Workout Image</string>
+    <string name="cd_workout_video_option">Click here for additional information on workout.Workout video available</string>
+    <string name="cd_save_button">Save Button. Click here to save workout</string>
+
+
+
+
+
+
+</resources>
