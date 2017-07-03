@@ -15,7 +15,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@android:color/white"
         android:background="@color/colorAccent"
-        app:elevation="2dp"
+        android:elevation="2dp"
         android:contentDescription="@string/cd_save_button"/>
 
 

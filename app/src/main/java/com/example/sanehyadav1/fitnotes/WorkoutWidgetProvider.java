@@ -16,12 +16,8 @@ import com.example.sanehyadav1.fitnotes.utilities.WorkoutUtilities;
  * Implementation of App Widget functionality.
  */
 public class WorkoutWidgetProvider extends AppWidgetProvider {
-    private AppWidgetTarget appWidgetTarget;
-    private RemoteViews mRemoteViews;
-    private ComponentName mComponentName;
-    private AppWidgetTarget mRemoteViewsTarget;
 
-    void updateAppWidget(Context context, AppWidgetManager appWidgetManager,
+    static void updateAppWidget(Context context, AppWidgetManager appWidgetManager,int todays_workout_count,
                                 int appWidgetId) {
 
         // Construct the RemoteViews object
@@ -34,7 +30,17 @@ public class WorkoutWidgetProvider extends AppWidgetProvider {
 
         views.setOnClickPendingIntent(R.id.widget_add_workout,pendingIntent);
 
-        String widget_image_url = WorkoutUtilities.getWidgetImageUrl(context);
+        //Set textview using workout_count passed
+
+        if(todays_workout_count >0){
+            views.setTextViewText(R.id.tv_widget,String.format(context.getString(R.string.non_zero_workout_count_for_today),todays_workout_count));
+        }else{
+            views.setTextViewText(R.id.tv_widget,context.getString(R.string.no_workouts_for_today));
+        }
+
+
+
+        //String widget_image_url = WorkoutUtilities.getWidgetImageUrl(context);
 
 
 
@@ -45,8 +51,13 @@ public class WorkoutWidgetProvider extends AppWidgetProvider {
     @Override
     public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
         super.onUpdate(context, appWidgetManager, appWidgetIds);
+        WorkoutService.startActionGetTodaysWorkout(context);
+//
+    }
+
+    public static void updateWorkoutWidgets(Context context,AppWidgetManager appWidgetManager,int todays_workout_count,int[] appWidgetIds){
         for (int appWidgetId:appWidgetIds){
-            updateAppWidget(context,appWidgetManager,appWidgetId);
+           updateAppWidget(context,appWidgetManager,todays_workout_count,appWidgetId);
         }
     }
 

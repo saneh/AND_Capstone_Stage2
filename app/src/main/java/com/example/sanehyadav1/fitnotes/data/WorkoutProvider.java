@@ -29,7 +29,6 @@ public class WorkoutProvider extends ContentProvider {
     public static UriMatcher buildUriMatcher(){
         final UriMatcher matcher = new UriMatcher(UriMatcher.NO_MATCH);
         final String authority = WorkoutContract.CONTENT_AUTHORITY;
-        //"/#' if the path is followed by any number it should return CODE_WORKOUTS_WITH_DATE
         matcher.addURI(authority,WorkoutContract.PATH_WORKOUT,CODE_WORKOUTS);
         matcher.addURI(authority,WorkoutContract.PATH_WORKOUT+ "/#",CODE_WORKOUTS_WITH_DATE);
 
@@ -76,7 +75,7 @@ public class WorkoutProvider extends ContentProvider {
                         null,
                         null,
                         sortOrder
-                );
+              );
                 break;
             default:
                 throw  new UnsupportedOperationException("Unknown Uri: "+ uri);

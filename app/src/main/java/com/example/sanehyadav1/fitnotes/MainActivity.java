@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     private View mEmptyView;
     public static final String SELECTED_DATE_FROM_MAIN = "selected_date_from_main";
 
+    private static final String TAG = MainActivity.class.getSimpleName();
+
     //Firebase analytics
     private FirebaseAnalytics mFirebaseAnalytics;
 
@@ -290,8 +292,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
         int rowsUpdated = this.getContentResolver().update(WorkoutContract.WorkoutEntry.CONTENT_URI,values,selection,selectionArgs);
         if(rowsUpdated > 0){
-
-            //Toast.makeText(this," Successfully Updated to " + workoutStatus,Toast.LENGTH_SHORT).show();
+            Log.d(TAG,"Workout status successfully updated to "+workoutStatus);
         }
         mPosition = position;
 

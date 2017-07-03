@@ -12,6 +12,8 @@ import android.widget.TextView;
 
 import java.util.HashMap;
 
+import static java.lang.String.*;
+
 /**
  * Adapter for recyclerview in 'MainActivity'
  */
@@ -84,16 +86,14 @@ public class WorkoutAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
                 int dist_in_meters = mCursor.getInt(MainActivity.INDEX_DIST_IN_METERS);
                 if(dist_in_meters!=0){
                     workoutItemViewHolder.mDistanceInMeter.setVisibility(View.VISIBLE);
-                    workoutItemViewHolder.mDistanceInMeter.setText(String.valueOf(dist_in_meters)+ " METERS");
-                }else{
-                    workoutItemViewHolder.mDistanceInMeter.setVisibility(View.GONE);
-                }
+                    workoutItemViewHolder.mDistanceInMeter.setText(String.format(mContext.getString(R.string.format_distance),dist_in_meters));
+                }else workoutItemViewHolder.mDistanceInMeter.setVisibility(View.GONE);
             }
             if (!mCursor.isNull(MainActivity.INDEX_WEIGHT_IN_KG)) {
                 float weight_in_kg = mCursor.getFloat(MainActivity.INDEX_WEIGHT_IN_KG);
                 if(weight_in_kg!=0.0){
                     workoutItemViewHolder.mWeightInKg.setVisibility(View.VISIBLE);
-                    workoutItemViewHolder.mWeightInKg.setText(String.valueOf(weight_in_kg) + " KG");
+                    workoutItemViewHolder.mWeightInKg.setText(String.format(mContext.getString(R.string.format_weight),weight_in_kg));
                 }else{
                     workoutItemViewHolder.mWeightInKg.setVisibility(View.GONE);
                 }
@@ -102,7 +102,7 @@ public class WorkoutAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
                 int time_in_mins = mCursor.getInt(MainActivity.INDEX_TIME_IN_MINS);
                 if(time_in_mins!=0){
                     workoutItemViewHolder.mTimeInMin.setVisibility(View.VISIBLE);
-                    workoutItemViewHolder.mTimeInMin.setText(String.valueOf(time_in_mins) + " MINS");
+                    workoutItemViewHolder.mTimeInMin.setText(String.format(mContext.getString(R.string.format_time),time_in_mins));
                 }else {
                     workoutItemViewHolder.mTimeInMin.setVisibility(View.GONE);
                 }
@@ -111,7 +111,7 @@ public class WorkoutAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
                 int rep_count = mCursor.getInt(MainActivity.INDEX_REP_COUNT);
                 if(rep_count!=0){
                     workoutItemViewHolder.mRepCount.setVisibility(View.VISIBLE);
-                    workoutItemViewHolder.mRepCount.setText(String.valueOf(rep_count) + " REPS");
+                    workoutItemViewHolder.mRepCount.setText(String.format(mContext.getString(R.string.format_repetition),rep_count));
                 }else {
                     workoutItemViewHolder.mRepCount.setVisibility(View.GONE);
                 }

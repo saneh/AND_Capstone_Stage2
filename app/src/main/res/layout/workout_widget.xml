@@ -1,48 +1,51 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:padding="@dimen/widget_margin">
-
-    <ImageView
-        android:id="@+id/widget_workout_image"
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_margin="16dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/workout_motivation_19" />
-
-
-    <LinearLayout
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_gravity="center_horizontal|bottom">
         <ImageView
-            android:id="@+id/widget_add_workout"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_gravity="center_horizontal|bottom"
-            android:layout_marginBottom="8dp"
-            android:src="@drawable/ic_add_circle_widget"
-            android:elevation="4dp"
-            android:translationZ="12dp"/>
-        <TextView
-            android:layout_width="wrap_content"
+            android:id="@+id/widget_workout_image"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/workout_motivation_19"
+            android:contentDescription="@string/cd_iv_widget_workout_image"/>
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:text="Your fitness notes"
-            android:fontFamily="sans-serif-light"
-            android:textSize="24sp"
-            android:textColor="@android:color/white"
-            android:layout_gravity="center_horizontal|bottom"
-            />
+            android:orientation="horizontal"
+            android:background="@color/colorPrimaryDark">
+            <TextView
+                android:id="@+id/tv_widget"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:fontFamily="sans-serif-light"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:layout_marginTop="8dp"
+                />
+            <ImageView
+                android:id="@+id/widget_add_workout"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_add_circle_widget"
+                android:elevation="4dp"
+                android:translationZ="12dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/cd_widget_add_workout"/>
+        </LinearLayout>
+
     </LinearLayout>
 
-
-
-</FrameLayout>
 

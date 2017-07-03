@@ -1,6 +1,13 @@
-<resources>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
     <string name="app_name">FitNotes</string>
     <string name="title">fitnotes</string>
+
+    <string name="workouts">Workouts</string>
+    <string name="no_workouts_for_today"> Don\'t let this day go without any workout.Set workout for today, Now !</string>
+    <string name="non_zero_workout_count_for_today"> You have
+        <xliff:g id ="workout_count">%d</xliff:g> workouts scheduled for today.This is doing you good !
+    </string>
+
     <!--Workout categories-->
     <string name="shoulders">Shoulders</string>
     <string name="triceps">Triceps</string>
@@ -15,6 +22,7 @@
     <!--Select Workout Toast-->
     <string name="toast_selectWorkout">You need to select workouts! Pick from the list above</string>
     <string name="toast_dateNotSelected">This is strange! Somehow date for workout is not selected</string>
+    <string name="toast_success_workout_saved">Workout Saved!</string>
 
     <!--List of shoulder exercises-->
     <string name="alternating_cable_shoulder_press">Alternating Cable Shoulder Press</string>
@@ -167,6 +175,27 @@
     <string name="time">TIME</string>
     <string name="reps">REPETITIONS</string>
 
+    <!--Measurement Units-->
+    <string name="meters">METERS</string>
+    <string name="kgs">KG</string>
+    <string name="mins">MIN</string>
+    <string name="rep_count">REPETITIONS</string>
+
+    <string name="format_distance">
+        <xliff:g id="distance">%d</xliff:g> METERS
+    </string>
+
+    <string name="format_weight">
+        <xliff:g id="weight">%1.0f</xliff:g> KG
+    </string>
+
+    <string name="format_time">
+        <xliff:g id="time">%d</xliff:g> MIN
+    </string>
+
+    <string name="format_repetition">
+        <xliff:g id="reps">%d</xliff:g> REPETITION
+    </string>
     <!--Save Workout Button-->
     <string name="save">SAVE</string>
     <string name="appwidget_text">EXAMPLE</string>
@@ -209,6 +238,19 @@
     <string name="workout_image">Workout Image</string>
     <string name="cd_workout_video_option">Click here for additional information on workout.Workout video available</string>
     <string name="cd_save_button">Save Button. Click here to save workout</string>
+    <string name="cd_iv_empty_view">Workout list contains no items. This is a Background image of the empty list</string>
+    <string name="cd_iv_selected_workout_image">Workout selection done</string>
+    <string name="cd_iv_workout_video_image_preview">Workout Video Preview</string>
+    <string name="cd_ic_play_video">Play video icon</string>
+    <string name="cd_iv_widget_workout_image">Workout motivation image</string>
+    <string name="cd_widget_add_workout">Add workout icon</string>
+
+
+    <!--View Text resources-->
+    <string name="text_tv_workout_options">&#8942;</string>
+    <string name="text_tv_widget">Your fitness notes</string>
+
+
 
 
 

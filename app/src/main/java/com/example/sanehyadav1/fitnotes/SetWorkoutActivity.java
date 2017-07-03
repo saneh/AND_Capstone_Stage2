@@ -1,5 +1,7 @@
 package com.example.sanehyadav1.fitnotes;
 
+import android.appwidget.AppWidgetManager;
+import android.content.ComponentName;
 import android.content.ContentValues;
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +11,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.widget.RemoteViews;
 import android.widget.Toast;
 
 import com.example.sanehyadav1.fitnotes.data.WorkoutContract;
@@ -128,10 +131,17 @@ public class SetWorkoutActivity extends AppCompatActivity implements SetWorkoutA
         Log.d(TAG, "number of elements in content value array " + workouts_values_array.length);
 
 
+
+
         int rows = this.getContentResolver().bulkInsert(WorkoutContract.WorkoutEntry.CONTENT_URI, workouts_values_array);
         if (rows > 0) {
+            //Checking if there's any change in TOday's workout, if yes then we need to update the widget
+            if(mWorkoutDate==WorkoutDateUtilities.normalizeDate(System.currentTimeMillis())){
+                updateAllWidgets();
+            }
+
             Log.d(TAG, "Successfully inserted " + rows + " in database");
-            Toast.makeText(this, "Workout saved!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, this.getString(R.string.toast_success_workout_saved), Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(this, MainActivity.class);
             intent.putExtra(MainActivity.SELECTED_DATE, mWorkoutDate);
             intent.putExtra(INTENT_ID, "From_Activity_Set_Workout");
@@ -140,6 +150,13 @@ public class SetWorkoutActivity extends AppCompatActivity implements SetWorkoutA
             SelectWorkoutActivity.getInstance().finish();
             //pop SetWorkout activity from stack once user is done adding workout
             finish();
+        }
+    }
+    private void updateAllWidgets(){
+        AppWidgetManager appWidgetManager = AppWidgetManager.getInstance(getApplicationContext());
+        int[] appWidgetIds = appWidgetManager.getAppWidgetIds(new ComponentName(this, WorkoutWidgetProvider.class));
+        if (appWidgetIds.length > 0) {
+            new WorkoutWidgetProvider().onUpdate(this, appWidgetManager, appWidgetIds);
         }
     }
 }
